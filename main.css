@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.main-title {
+    text-align: center;
+    margin-top: auto;
+}
+
+nav {
+    flex-basis: 100%;
+    flex: 1;
+}
+
+main {
+    flex-basis: 100%;
+    flex: 3;
+    margin: 0 5%;
+}
+
+@media screen and (max-width: 810px) {
+    .container {
+        flex-direction: column;
+    }
+
+}
