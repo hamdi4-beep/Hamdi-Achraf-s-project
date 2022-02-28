@@ -132,3 +132,12 @@ code {
     background-color: #555;
     color: beige;
 }
+
+.progress-bar {
+    height: 10px;
+    background-color: #555;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
